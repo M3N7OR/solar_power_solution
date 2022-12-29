@@ -71,6 +71,7 @@ html {
 
 .content h1 {
     font-size: 60px;
+    text-align: center;
 }
 
 .overlay .content h3 {
@@ -79,6 +80,7 @@ html {
     font-weight: 750;
     line-height: 20px;
     font-size: 20px;
+    text-align: center;
 }
 
 a {
@@ -369,6 +371,7 @@ p {
     gap: 1.1rem;
 }
 
+
 @media screen and (min-width:768px) {
     .detail .row {
         display: grid;
@@ -407,16 +410,16 @@ h3 {
 
 .title p3,
 p2 {
-    font-weight: 1500;
+    /* font-weight: 1500; */
     font-size: 20px;
     font-style: italic;
 }
-@media only screen and (max-width: 1000px){ 
+@media only screen and (max-width: 1440px){ 
     html,body{
         overflow-x: hidden;
     }
 }
-@media only screen and (max-width: 540px){ 
+@media only screen and (max-width: 480px){ 
    .wrapper{
        flex-wrap: wrap;
     }
@@ -424,7 +427,7 @@ p2 {
         font-weight: bold;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 976px) {
     .navbar {
         background: transparent;
         margin-top: 1.4rem;
